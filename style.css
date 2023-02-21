@@ -1,0 +1,28 @@
+body,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    background-color: blue;
+    background-image: url("gericht.png");
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+}
+
+.body-div {
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+#survey-form {
+    background-color: rgb(28, 28, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
